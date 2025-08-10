@@ -66,7 +66,7 @@ function buttonmobileheader() {
                 </div>
 
                 {isVisible && (
-                    <div className='border-b-1 translate-y-[-0.5px] border-[rgba(40,40,40,1)] py-4 w-full showModal bg-black/80 md:hidden flex flex-col gap-5'>
+                    <div className='translate-y-[10px] border-b-1 border-[rgba(40,40,40,1)] py-4 w-full showModal bg-black/80 md:hidden flex flex-col gap-5'>
                         {
                             menu.map((e, index) => (e.href && e.title &&
                                 (
