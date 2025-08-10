@@ -48,6 +48,7 @@ function Header() {
   return (
     <div>
       <header ref={headerRef} className='md:border-b-1 border-[rgba(40,40,40,1)] flex bg-transparent w-full h-[90px] flex-row items-center justify-end md:justify-around fixed top-0 z-20 transition-all duration-500'>
+
         <div className='h-[77px] w-[77px] hover:animate-pulse hidden md:flex items-center justify-center rounded-full transition-all duration-500 hover:bg-[var(--purple-dark)] bg-amber-50/10'>
           <a href="/">
             <img className=' transition-all ease-in-out duration-[500ms]' src={logo} alt=""></img>
@@ -59,12 +60,10 @@ function Header() {
             menu.map((e, index) => (e.href && e.title && (
               <a key={index} className='nav-before font-[Montserrat] font-medium text-[15px] text-white no-underline transition-all duration-500 relative scale-110 hover:-translate-y-1 hover:text-[#b713e9]' href={e.href}>{e.title}</a>
             )
-            ))
-          }
+          ))
+        }
         </nav>
-
         <Buttonmobileheader />
-
       </header>
     </div>
   )

@@ -47,14 +47,14 @@ function buttonmobileheader() {
     return (
         <>
             <div ref={bgheader} className='flex flex-col w-full h-full md:hidden'>
-                <div className="w-full h-full p-[40px] md:hidden ">
+                <div className="w-full h-full pr-[40px] pt-[40px] flex flex-row-reverse md:hidden ">
                     {isVisible ? (
-                        <button onClick={menumobile} className='md:hidden cursor-pointer button-menu-header'>
+                        <button onClick={menumobile} className='h-[40px] w-[40px] cursor-pointer button-menu-header'>
                             <X className='h-[40px] w-[40px] text-white transition-all duration-500 drop-shadow-[0_0_10px_white]'></X>
                         </button>
                     ) : (
-                        <button onClick={menumobile} className='flex flex-col items-center justify-center gap-[5px] bg-transparent border-0 cursor-pointer button-menu-header'>
-                            <Menu className='h-[40px] w-[40px] text-white transition-all duration-500 drop-shadow-[0_0_10px_black]'/>
+                        <button onClick={menumobile} className='h-[40px] w-[40px] flex flex-col items-center justify-center gap-[5px] bg-transparent border-0 cursor-pointer button-menu-header'>
+                            <Menu className=' h-[40px] w-[40px] text-white transition-all duration-500 drop-shadow-[0_0_10px_black]'/>
                         </button>
                     )}
 
@@ -70,7 +70,7 @@ function buttonmobileheader() {
                         {
                             menu.map((e, index) => (e.href && e.title &&
                                 (
-                                    <a key={index} className='w- px-7 hover:animate-in  font-[Montserrat] font-medium text-[20px] text-white no-underline transition-all duration-500 hover:-translate-y-1 hover:text-[#b713e9]' href={e.href}>
+                                    <a key={index} className='text-end w- px-7 hover:animate-in  font-[Montserrat] font-medium text-[20px] text-white no-underline transition-all duration-500 hover:-translate-y-1 hover:text-[#b713e9]' href={e.href}>
                                         {e.title}
                                     </a>
                                 )
