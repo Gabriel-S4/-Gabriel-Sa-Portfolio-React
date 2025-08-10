@@ -30,9 +30,9 @@ function services() {
         // Border top
         // border-t-[10px] border-[var(--purple-dark-dark)]
         <>
-            <section id="services" className='relative w-full min-h-[700px] p-[30px]  flex flex-col justify-center items-center gap-10 before:absolute before:top-0 before:left-0 before:w-full before:h-60 before:bg-gradient-to-t before:from-transparent before:to-(--purple-dark-dark)'>
+            <section id="services" className='relative w-full min-h-[700px] p-[30px]  flex flex-col justify-center items-center gap-10 before:absolute before:z-4 before:top-0 before:left-0 before:w-full before:h-60 before:bg-gradient-to-t before:from-transparent before:to-(--purple-dark-dark)'>
                 {/* container Services */}
-                <Title>Services</Title>
+                <Title >Services</Title>
                 <div className="w-full flex flex-wrap justify-center items-center gap-[30px]">
                     {
                         cards.map((card, index) => (
