@@ -3,14 +3,14 @@ import Title from '../components/title'
 import gabriel from '/euu.jpg'
 import Skills from '../components/skills'
 import Hr from '../components/hr'
-import { Vortex } from './ui/vortex'
-import cv from '../docs/Currículo-09-08-2025.pdf'
+// import { Vortex } from './ui/vortex'
+import cv from '../docs/17-08-2025.pdf'
 
 function aboutMe() {
     // bg-[#020202] bg-[url('https://www.transparenttextures.com/patterns/lined-paper-2.png')] border-t-[10px] border-[var(--gray-dark)]
     return (
         <>
-                    {/* <Vortex rangeY="100" particleCount="1"/> */}
+            {/* <Vortex rangeY="100" particleCount="500"/> */}
         
             <section id="about" className="lg:min-h-dvh h-auto w-full flex flex-col items-center justify-center py-10 gap-6">
                 <Title>About Me</Title>

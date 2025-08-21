@@ -3,7 +3,7 @@ import img1 from '/editing.jpg'
 import img2 from '/maintenance.jpg'
 import img3 from '/Webdeveloper.jpg'
 import Title from '../components/title'
-import { Vortex } from './ui/vortex'
+// import { Vortex } from './ui/vortex'
 
 const cards = [
     {
@@ -51,7 +51,7 @@ function services() {
                     }
                 </div>
                 {/* <Alert/> */}
-            {/* <Vortex rangeY="400" particleCount="10"/> */}
+            {/* <Vortex rangeY="400" particleCount="50"/> */}
             </section>
             <div className='w-full h-[100px] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-transparent via-transparent to-purple-900'>
             </div>

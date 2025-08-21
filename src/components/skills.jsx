@@ -1,6 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import Title from '../components/title'
+// import { Vortex } from '../components/ui/vortex'
 
 const cards = [
     {
@@ -90,6 +91,7 @@ function skills() {
                                         )
                                     })
                                 }
+                                {/* <Vortex  rangeY="400" particleCount="50"/> */}
                                 </div>
                             </div>
                         </div>
