@@ -80,11 +80,11 @@ function Footer() {
     return (
         <footer
             id="contact"
-            className="min-h-dvh bg-[linear-gradient(to_right,var(--purple-dark-dark),black,var(--purple-dark-dark)),url('https://www.transparenttextures.com/patterns/lined-paper-2.png')] bg-repeat bg-center text-white py-16 relative overflow-hidden"
+            className="min-h-dvh text-white py-16 relative"
         >
             <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%239C92AC%22%20fill-opacity%3D%220.05%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%223%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
 
-            <div className="max-w-4xl mx-auto px-6 relative pt-15">
+            <div className="max-w-4xl mx-auto px-3 relative pt-15">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
                         Get In Touch
@@ -94,8 +94,9 @@ function Footer() {
                         Send me a message and I'll respond as soon as possible.
                     </p>
                 </div>
-
-                <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 md:p-10 border border-white/20 shadow-2xl">
+                {/* bg-white/10 rounded-2xl border border-white/20*/}
+                {/* bg-gray-900/60 */}
+                <div className="bg-gray-900/60 backdrop-blur-lg rounded-2xl p-8 md:p-10 shadow-2xl">
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div className="grid md:grid-cols-2 gap-6">
                             {/* Name */}

@@ -26,10 +26,10 @@ function buttonmobileheader() {
             title: 'Home',
             href: '#home'
         },
-        {
-            title: 'Services',
-            href: '#services'
-        },
+        // {
+        //     title: 'Services',
+        //     href: '#services'
+        // },
         {
             title: 'About Me',
             href: '#about'

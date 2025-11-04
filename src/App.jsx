@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import Home from "./pages/home/home"
 import Header from "./components/header"
 import AboutMe from './components/about-me'
-import Services from './components/services'
+// import Services from './components/services'
 import Projects from './components/projects'
 import Footer from './components/footer'
 import Image from '/sadEmote.png'
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe/>} />
-        <Route path="/services" element={<Services/>}/>
+        {/* <Route path="/services" element={<Services/>}/> */}
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/contact" element={<Footer/>} />
         <Route path="*" element={

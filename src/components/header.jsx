@@ -12,7 +12,8 @@ function Header() {
 
       if (headerRef.current) {
         if (scrollPosition > 5 && larguraAtual > 800) {
-          headerRef.current.style.background = "rgba(16, 16, 16, 0.9)";
+          headerRef.current.style.background = "#0B0E1AEF";
+          // "rgba(16, 16, 16, 0.9)"
         } else {
           headerRef.current.style.background = "transparent";
         }
@@ -27,10 +28,10 @@ function Header() {
       title: 'Home',
       href: '#home'
     },
-    {
-      title: 'Services',
-      href: '#services'
-    },
+    // {
+    //   title: 'Services',
+    //   href: '#services'
+    // },
     {
       title: 'About Me',
       href: '#about'

@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../../components/hero'
-import Services from '../../components/services'
+import PurpleTransition from '../../components/PurpleTransition'
 import AboutMe from '../../components/about-me'
 import Projects from '../../components/projects'
 import Footer from '../../components/footer'
@@ -10,7 +10,7 @@ function home() {
   return (
     <>
         <Hero />
-        <Services />
+        <PurpleTransition />
         <Hr />
         <AboutMe />
         <Hr />

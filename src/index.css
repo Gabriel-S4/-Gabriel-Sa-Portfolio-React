@@ -22,7 +22,7 @@ body {
   background-image: linear-gradient(
   to right,
   var(--purple-dark-dark),
-  black,
+  rgba(0, 0, 0, 0.945),
   var(--purple-dark-dark)
 );
 }
@@ -418,4 +418,8 @@ body::-webkit-scrollbar-thumb {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.no-scroll {
+  overflow: hidden !important;
 }

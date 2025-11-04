@@ -14,7 +14,9 @@ function aboutMe() {
         
             <section id="about" className="lg:min-h-dvh h-auto w-full flex flex-col items-center justify-center py-10 gap-6">
                 <Title>About Me</Title>
-                <div className="min-h-[300px] flex flex-wrap flex-col-reverse lg:flex-row justify-center items-center sm:gap-[20px] bg-white/10 backdrop-blur-lg rounded-2xl p-4 m-4 md:p-4 border border-white/20 shadow-2xl">
+                {/* bg-white/10 rounded-2xl border border-white/20*/}
+                {/* bg-gray-900/60 */}
+                <div className="min-h-[300px] flex flex-wrap flex-col-reverse lg:flex-row justify-center items-center sm:gap-[20px] bg-gray-900/40 backdrop-blur-lg rounded-[50px] p-4 m-4 md:p-4  shadow-2xl">
                     {/* Left Container */}
                     <div className="max-w-[600px] flex flex-col p-5 items-center gap-[30px]" data-aos="fade-right">
                         <div className="w-full">
