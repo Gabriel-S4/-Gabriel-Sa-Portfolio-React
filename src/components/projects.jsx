@@ -414,7 +414,7 @@ function projects() {
                       className="text-white hover:text-red-400 transition-colors duration-300 p-2 text-sm font-medium rounded-lg cursor-pointer sm:mr-6"
                       aria-label="Fechar"
                     >
-                      FECHAR
+                      CLOSE
                     </button>
                     {/* Opção para usar ícone de fechar (requer componente de ícone, ex: X) */}
                     {/* <button onClick={() => handleCard()} className="text-white hover:text-red-400 transition-colors duration-300 p-2 rounded-full" aria-label="Fechar">
