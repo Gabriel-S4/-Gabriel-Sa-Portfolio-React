@@ -1,10 +1,10 @@
 import { React } from 'react'
 import Title from '../components/title'
-import gabriel from '/euu.jpg'
+import gabriel from '/about me/euu.jpg'
 import Skills from '../components/skills'
 import Hr from '../components/hr'
 // import { Vortex } from './ui/vortex'
-import cv from '../docs/CURRÍCULO 2025-11-05.pdf'
+import cv from '/curriculum vitae/CURRÍCULO 2025-11-05.pdf'
 
 function aboutMe() {
     // bg-[#020202] bg-[url('https://www.transparenttextures.com/patterns/lined-paper-2.png')] border-t-[10px] border-[var(--gray-dark)]
@@ -40,7 +40,7 @@ function aboutMe() {
 
                     {/* Right Container */}
                     <div
-                        className="w-65 h-[350px] sm:w-[350px] sm:h-[400px] bg-[url('/euu.jpg')] bg-cover bg-center bg-no-repeat border-[2px] border-transparent shadow-[0px_0px_14px_3px_#00000082] animate-[morph_8s_ease-in-out_infinite] rounded-[60%_40%_30%_70%/60%_30%_70%_40%] relative transition-all duration-1000"
+                        style={{backgroundImage: `url(${gabriel})`}} className="w-65 h-[350px] sm:w-[350px] sm:h-[400px] bg-cover bg-center bg-no-repeat border-[2px] border-transparent shadow-[0px_0px_14px_3px_#00000082] animate-[morph_8s_ease-in-out_infinite] rounded-[60%_40%_30%_70%/60%_30%_70%_40%] relative transition-all duration-1000"
                         data-aos="fade-left"
                     >
 

@@ -17,7 +17,7 @@ function hero() {
       </div>
       <div className='w-full h-screen absolute opacity-25 z-1 '>
         <video playsInline webkit-playsinline="true"  controls={false} autoPlay muted loop className='w-full h-full object-cover object-center'>
-          <source src="/python-editor.mp4" type="video/mp4" />
+          <source src="/hero/python-editor.mp4" type="video/mp4" />
         </video>
       </div>
       <div className='w-full h-screen absolute bottom-0 bg-black/50'>

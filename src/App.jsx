@@ -5,7 +5,7 @@ import AboutMe from './components/about-me'
 // import Services from './components/services'
 import Projects from './components/projects'
 import Footer from './components/footer'
-import Image from '/sadEmote.png'
+import Image from '/error 404/sadEmote.png'
 function App() {
   return (
     <>
