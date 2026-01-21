@@ -24,7 +24,7 @@ function aboutMe() {
                         </div>
                         <div className="h-[90%] text-just   ify text-white flex items-center justify-center">
                             <p className='text-justify text-[16px]  sm:text-[18px]'>
-                                Front-End Developer with experience in React, Next.js and Tailwind, as well as strong skills in HTML, CSS, JavaScript, TypeScript, and Bootstrap. I worked at Vizzion Sistemas, building responsive websites and systems with a focus on performance and user experience. I’m currently open to opportunities related to Front-End development with React and technology in general.                            </p>
+                                Full-Stack Developer with experience in React, Next.js and Tailwind, as well as strong skills in HTML, CSS, JavaScript, TypeScript, and Bootstrap. I worked at Vizzion Sistemas, building responsive websites and systems with a focus on performance and user experience. I’m currently open to opportunities related to Front-End development with React and technology in general.                            </p>
                         </div>
                         <div>
                             <a

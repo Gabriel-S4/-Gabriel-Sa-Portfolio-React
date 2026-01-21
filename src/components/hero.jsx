@@ -8,7 +8,7 @@ function hero() {
         <div className='flex flex-col items-center justify-center text-center'>
           <h1 className='text-[var(--h1-color)] lg:text-[100px]  text-5xl sm:text-6xl font-bold mb-2 italic text-shadow-[var(--shadow-purple)] cursor-default'>Gabriel Sá</h1>
           <p className='text-white font-medium text-[16px] sm:text-[20px] lg:text-[22px] max-w-[500px] text-center text-shadow-[var(--shadow-purple)] cursor-default'>
-            Computer Engineering student, <span className='text-nowrap'> Front-End </span> Developer, Designer & Video editor.
+            Computer Engineering student, <span className='text-nowrap'> Full-Stack </span> Developer, Designer & Video editor.
           </p>
         </div>
         <div className='max-w-[300px] sm:max-w-[500px] slide-in'>
