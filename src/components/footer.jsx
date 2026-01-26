@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Send, Mail, User, MessageCircle } from 'lucide-react';
 import emailjs from 'emailjs-com';
 import Title from './title';
@@ -76,6 +76,13 @@ function Footer() {
             </footer>
         );
     }
+
+    // Cálculo dinâmico do ano atual
+    // const [year, setYear] = useState()
+    // useEffect(() => {
+    //     const data = new Date()
+    //     setYear(data.getFullYear())
+    // },[])
 
     return (
         <footer
@@ -239,10 +246,9 @@ function Footer() {
 
                 {/* Footer bottom */}
                 <div className="mt-0 text-center text-slate-400 pt-8">
-                    <p>&copy; 2025. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()}. All rights reserved.</p>
                 </div>
             </div>
-
 
         </footer>
     );
